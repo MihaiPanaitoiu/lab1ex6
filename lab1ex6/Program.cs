@@ -28,10 +28,7 @@ namespace lab1ex6
             Array.Sort(nums);
             Array.Reverse(nums);
 
-            foreach (int num in nums)
-            {
-                Console.WriteLine(num);
-            }
+            Console.WriteLine(string.Join('\n', nums));
         }
     }
 }
